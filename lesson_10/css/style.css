@@ -209,6 +209,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 200px;
+	z-index: 6;
 }
 
 .section-business__title {
@@ -322,6 +323,7 @@ body {
 	position: absolute;
 	top: 1010px;
 	left: 800px;
+	z-index: 6;
 }
 
 .section-business__second-title {
@@ -387,6 +389,7 @@ body {
 	position: absolute;
 	top: 60%;
 	right: 33%;
+	z-index: 6;
 }
 
 .section-business__ellipse-big {
