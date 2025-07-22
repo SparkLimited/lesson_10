@@ -13,7 +13,37 @@
 /* Компоненти */
 @import url("button.css");
 /* .... */
-@media (max-width: 768px);
+/* @media (max-width: 768px) {
+	.section-business {
+		width: 100%;
+		padding: 20px;
+	}
+
+	.section-business__image-one,
+	section-business__image-two {
+		position: static;
+		margin: 0 auto;
+		display: block;
+	}
+
+	.section-business__text-block,
+	.section-business__second-text-block {
+		margin-left: 0;
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.section-business__img,
+	.sections-business__second-img {
+		width: 100%;
+		height: auto;
+	}
+
+	.section-business__decor,
+	.section-business__decor-second {
+		display: none;
+	}
+} */
 
 /* Основні стилі */
 
@@ -96,7 +126,6 @@ body {
 
 .shelf-vegetables__price {
     font-family: "Poppins", sans-serif;
-	font-weight: 500;
 	font-size: 16px;
 	font-weight: 500;
 	color: #1A1A1A;
@@ -215,10 +244,9 @@ body {
 
 .section-business__text-block {
 	width: 660px;
-	min-height: 300px;
 	display: inline-block;
 	margin-left: 600px;
-	padding: 100px 0;
+	padding: 100px 0 0;
 	
 }
 
@@ -235,7 +263,7 @@ body {
 	width: 480px;
 	color: #FFF;
 	font-family: "Roboto", sans-serif;
-	font-size: 18;
+	font-size: 18px;
 	font-weight: 400;
 	margin-bottom: 39px;
 }
@@ -291,7 +319,7 @@ body {
 	color: #FFF;
 	display: inline-block;
 	font-family: "Roboto", sans-serif;
-	font-size: 18;
+	font-size: 18px;
 	font-weight: 400;
 	margin-bottom: 39px;
 }
@@ -319,7 +347,6 @@ body {
 	color: #FFF;
 	border: none;
 	cursor: pointer;
-	position: relative;
 }
 
 .section-business__button-one:hover,
@@ -398,8 +425,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
-	bottom: 0px;
-	right: 0px;
+	bottom: 0;
+	right: 0;
 }
 
 .section-business__ellipse-small {
