@@ -52,7 +52,7 @@
 	width: 100%;
 	min-height: 70px;
 	box-sizing: border-box;
-	background-color: var(--primary-color);
+	background-color: #FFF;
 	border: 1px solid grey;
 	box-shadow: 0 0 3px blue;
 }
