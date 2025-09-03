@@ -82,7 +82,7 @@
 	position: absolute;
 	bottom: 10px;
 	left: 10px;
-	width: 100%;
+	width: 80%;
 	height: 3px;
 	background-color:rgb(213, 13, 33);
 	opacity: 0;
@@ -845,3 +845,4 @@ overflow: hidden;
 .sub-menu__link:hover {
 	background-color: #7a956b;
 } */
+
